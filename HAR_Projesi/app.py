@@ -76,7 +76,6 @@ with open('scaler.pkl', 'wb') as f:
 with open('pca.pkl', 'wb') as f:
     pickle.dump(pca, f)
 
-pip install streamlit
 import streamlit as st
 import pandas as pd
 import pickle
